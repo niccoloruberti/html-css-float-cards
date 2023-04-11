@@ -21,3 +21,25 @@ h1 {
 #title-description {
     text-align: center;
 }
+
+/* rows */
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row {
+    margin: 30px 0;
+}
+
+/* cards */
+
+.card {
+    background-color: rgb(15, 14, 23);
+    width: calc(100% / 3 - 20px);
+    height: 100px;
+    float: left;
+    margin: 0px 10px;
+}
