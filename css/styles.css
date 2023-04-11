@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* container */
+
+.container {
+    font-family: 'Fredoka', sans-serif;
+    width: 70%;
+    margin: 10px auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(229, 49, 112);
+}
+
+#title-description {
+    text-align: center;
+}
