@@ -8,7 +8,7 @@
 
 .container {
     font-family: 'Fredoka', sans-serif;
-    width: 70%;
+    width: 80%;
     margin: 10px auto;
 }
 
@@ -39,7 +39,31 @@ h1 {
 .card {
     background-color: rgb(15, 14, 23);
     width: calc(100% / 3 - 20px);
-    height: 100px;
     float: left;
     margin: 0px 10px;
+}
+
+.foto-profilo {
+    width: 30%;
+    float: left;
+}
+
+.foto-profilo img {
+    width: 100%;
+}
+
+.personal-info {
+    padding: 15px 0px 15px 35%;
+}
+
+.name, .role {
+    color: white;
+}
+
+.mail {
+    color: skyblue;
+}
+
+.personal-info > * {
+    margin: 5px 0;
 }
